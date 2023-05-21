@@ -113,6 +113,14 @@ span{
     height: 500px;
     border: 1px solid #ffffff !important;
 }
+.plancontainerthree{
+    background-image: url(src/images/Screenshot_3.jpeg);
+    background-size: contain;
+    margin: 50px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ffffff !important;
+}
 .plancontainer img{
     max-width: 100%;
     max-height: 100%;
@@ -122,7 +130,6 @@ span{
 .centered{
     text-align: center;
     font-family: Oswald;
-    
 }
 
 .plan1{
@@ -135,8 +142,23 @@ span{
     line-height: 35px;
 }
 
-.iletisim{
+#iletisim{
+    background-color: black;
+    width: 100%;
+    height: 50rem;
+}
 
+#iletisimchild{
+    margin-top: 10rem;
+    text-align: center;
+    font-family: Oswald;
+}
+
+.link{
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    font-family: Oswald;
 }
 
 section{
